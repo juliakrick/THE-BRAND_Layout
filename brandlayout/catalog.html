@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Catalog</title>
+</head>
+<body>
+    <header class="navbar">
+        
+        <div class="navbar__wrapper  wrapper">
+            <div class="navbar__icons  navbar__icons_left">
+
+                    <a class="navbar__link" href="#"><img class="navbar__img" src="img/sing.svg" alt=""></a>
+                    <a class="navbar__link" href="#"><img class="navbar__img" src="img/search.svg" alt=""></a></div>
+            
+            <div class="navbar__icons  navbar__icons_right">
+                    <a class="navbar__link  btn_open" href="#head__popup"><img class="navbar__img" src="img/menu.svg" alt=""></a>
+                    <a class="navbar__link" href="#"><img class="navbar__img" src="img/feedback.svg" alt=""></a>
+                    <a class="navbar__link" href="#"><img class="navbar__img" src="img/basket.svg" alt=""></a>
+            </div>
+        </div>    
+</header>
+<section class="catalog__directory">
+    <div class="catalog__wrapper  wrapper">
+        <h1 class="catalog__title">NEW ARRIVALS</h1>
+     <div class="catalog__breadcrumps">
+        <ul class="catalog__list">
+            <li class="catalog__item  catalog__item-after"><a href="#" class="catalog__link">HOME</a></li>
+            <li class="catalog__item  catalog__item-after"><a href="#" class="catalog__link">MEN</a></li>
+            <li class="catalog__item"><a href="#" class="catalog__link  catalog__link-active">NEW ARRIVALS</a></li>
+        </ul>
+     </div>
+    </div>      
+</section>
+<section class="content  wrapper  description">
+    <div class="content__nav">
+       
+            <div class="content__filter_block">
+                <details class="content__details">
+                    <summary class="content__summary">  
+                     <span class="content__filter_title">FILTER</span>
+                     <svg class="content__filter_svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" fill="#000000"/>
+                        </svg>          
+                    </summary>
+                    <details class="content__sub_details">
+                        <summary class="content__sub_summary">
+                            <span class="content__filter_title  content__filter_title-sub">CATEGORY</span>
+                        </summary>
+                        <ul class="content__filter_list">
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Accessories</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Bags</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Denim</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Hoodies & Sweatshirts</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Jackets & Coats</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Polos</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Shirts</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Shoes</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Sweaters & Knits</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">T-Shirts</a></li>
+                            <li class="content__filter_li"><a class="content__filter_link" href="#">Tanks</a></li>
+                        </ul>
+                    </details>
+                    <details class="content__sub_details">
+                        <summary class="content__sub_summary">
+                            <span class="content__filter_title  content__filter_title-sub">BRAND</span>
+                        </summary>
+                    </details>
+                    <details class="content__sub_details">
+                        <summary class="content__sub_summary">
+                            <span class="content__filter_title  content__filter_title-sub">DESIGNER</span>
+                        </summary>
+                    </details>
+                </details>
+            </div>
+           
+            <!-- <a href="#">FILTER</a> -->
+        <!-- выпадающее меню начало -->   
+         <div class="description__links">
+                <div class="description__link">
+                    <ul class="description__dropdown">
+                        <li class="description__dropdown_menu" >
+                            <a class="description__dropdown_title" href="#">TRENDING NOW</a>
+                        <ul  class="description__dropdown_submenu">
+                            <li class="description__dropdown_li">
+                                <input class="description__dropdown_input" id='colors1'  type="radio">
+                                <label class="description__dropdown_label" for="colors1">black</label></li>
+                            <li  class="description__dropdown_li">
+                                <input class="description__dropdown_input" id='colors2' type="radio">
+                                <label class="description__dropdown_label" for="colors2">white</label></li>     
+                            <li  class="description__dropdown_li">
+                                <input class="description__dropdown_input" id='colors3' type="radio">
+                                <label class="description__dropdown_label" for="colors3">red</label></li>
+                            <li  class="description__dropdown_li">
+                                <input class="description__dropdown_input" id='colors4' type="radio">
+                                <label class="description__dropdown_label" for="colors4">orange</label></li>
+                        </ul></li>
+                        <li class="description__dropdown_menu">
+                            <a class="description__dropdown_title" href="#">SIZE</a>
+                            <ul  class="description__dropdown_submenu">
+                                <li class="description__dropdown_li">
+                                    <input class="description__dropdown_input" id="sizes1" type="radio">
+                                    <label class="description__dropdown_label" for="sizes1">size</label></li>
+                                <li  class="description__dropdown_li">
+                                    <input class="description__dropdown_input" id="sizes2" type="radio">
+                                    <label class="description__dropdown_label" for="sizes2">size</label></li>
+                                <li  class="description__dropdown_li">
+                                    <input class="description__dropdown_input" id="sizes3" type="radio">
+                                    <label class="description__dropdown_label" for="sizes3">size</label></li>
+                                <li  class="description__dropdown_li">
+                                    <input class="description__dropdown_input" id="sizes4" type="radio">
+                                    <label class="description__dropdown_label" for="sizes4">size</label></li>
+                            </ul></li>
+                            <li class="description__dropdown_menu">
+                                <a class="description__dropdown_title" href="#">PRICE</a>
+                                <ul  class="description__dropdown_submenu  description__dropdown_submenu-width">
+                                    <li class="description__dropdown_li">
+                                        <input class="description__dropdown_input" id="prices1" type="radio">
+                                        <label class="description__dropdown_label" for="prices1"> <1000 </label></li>
+                                    <li  class="description__dropdown_li">
+                                        <input class="description__dropdown_input" id="prices2" type="radio">
+                                        <label class="description__dropdown_label" for="prices2">1000-2000</label></li>
+                                    <li  class="description__dropdown_li">
+                                        <input class="description__dropdown_input" id="prices3" type="radio">
+                                        <label class="description__dropdown_label" for="prices3">2000-5000</label></li>
+                                    <li  class="description__dropdown_li">
+                                        <input class="description__dropdown_input" id="prices4" type="radio">
+                                        <label class="description__dropdown_label" for="prices4">>5000</label></li>
+                                </ul></li> 
+                    </ul>
+                </div>  
+         </div>
+         <!-- выпадающее меню конец -->
+        <div class="content__variable"></div>   
+            
+    </div>    
+</section>
+<section class="products  wrapper">
+    <div class="products__title">
+        <!-- <h1 class="products__title_h1">Fetured Items</h1>
+        <p class="products__title_p">Shop for items based on what we featured in this week</p> -->
+        <div class="products__items">
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/product1.png" alt="product1">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/catalog2.png" alt="product2">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/product3.png" alt="product3">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/product4.png" alt="product4">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/catalog5.png" alt="product5">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+                
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/product6.png" alt="product6">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/catalog7.png" alt="product1">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/catalog8.png" alt="product1">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            <div class="products__item  products__item_margin">
+                <img class="products__img" src="img/catalog9.png" alt="product1">
+                <div class="products__about">
+                    <h3 class="products__item_title">ELLERY X M'O CAPSULE</h3>
+                <p class="products__item_describe">Known for her sculptural takes on traditional tailoring,
+                     Australian arbiter of cool Kym Ellery teams up with Moda Operandi</p>
+                <h5 class="products__item_price">$52.00</h5>
+                </div>
+            </div>
+            
+        </div> 
+        <div class="products__viewing">
+            <!-- <button class="products__button">Browse All Product</button> -->
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer__top">
+        <div class="footer__items  wrapper">
+            <div class="footer__item">
+                <img class="footer__img" src="img/delivery.png" alt="delivery">
+                <h4 class="footer__about">Free Delivery</h4>
+                <p class="footer__text">Worldwide delivery on all. 
+                    Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="footer__item">
+                <img class="footer__img" src="img/sales.png" alt="delivery">
+                <h4 class="footer__about">Sales & discounts</h4>
+                <p class="footer__text">Worldwide delivery on all. 
+                    Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="footer__item">
+                <img class="footer__img" src="img/quelity.png" alt="delivery">
+                <h4 class="footer__about">Quality assurance</h4>
+                <p class="footer__text">Worldwide delivery on all. 
+                    Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+        </div>  
+    </div>
+    <div class="footer__content">
+        <div class="footer__wrapper  wrapper">
+            <div class="footer__subcribe">
+                <div class="footer__profile"></div>
+                <p class="subsribe__text"> <i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                    a pulvinar purus condimentum“</i></p>
+            </div>
+            <div class="footer__form">
+                <h3 class="footer__form_subscribe">SUBSCRIBE</h3>
+                <h4 class="footer__form_text">FOR OUR NEWLETTER AND PROMOTION</h4>
+                <form class="form__display" action="#">
+                    <input  class="form__input" name="s" placeholder="Enter Your Email" type="search">
+                    <button class="form__button" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+       
+    <div class="footer__bottom">
+    <div class="footer__wrap  wrapper">
+            <div class="footer__right">© 2021 Brand All Rights Reserved.</div>
+        <div class="footer__social">
+            <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/facebook.svg" alt=""></a> 
+             </div>
+             <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/inst.svg" alt=""></a> 
+             </div>
+             <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/pinterest.svg" alt=""></a> 
+             </div>
+             <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/twitter.svg" alt=""></a> 
+             </div>
+           
+                
+        </div>
+    </div>
+        
+    </div>
+</footer>
+
+    
+</body>
+</html>

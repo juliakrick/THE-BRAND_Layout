@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbar">
+        
+        <div class="navbar__wrapper  wrapper">
+            <div class="navbar__icons  navbar__icons_left">
+                    <a class="navbar__link" href="index.html"><img class="navbar__img" src="img/sing.svg" alt="home"></a>
+                    <a class="navbar__link" href="#"><img class="navbar__img" src="img/search.svg" alt="search"></a></div>
+            <div class="navbar__icons  navbar__icons_right">
+                    <a class="navbar__link  btn_open" href="#"><img class="navbar__img" src="img/menu.svg" alt="menu"></a>
+                    <a class="navbar__link" href="#"><img class="navbar__img" src="img/feedback.svg" alt="feedback"></a>
+                    <a class="navbar__link" href="#"><img class="navbar__img" src="img/basket.svg" alt="basket__action"></a>
+            </div>
+        </div>    
+</header>
+<section class="catalog__directory">
+    <div class="catalog__wrapper  wrapper">
+        <h1 class="catalog__title">SHOPPING CART</h1>
+     <div class="catalog__breadcrumps">
+     </div>
+    </div>      
+</section>
+<section class="basket  wrapper">
+    <div class="basket__products">
+        <div class="basket__item  basket__item--margin">
+            <div class="basket__img"></div>
+            <div class="basket__describe">
+                <button class="basket-close">
+                    <a href="#"><img class="basket__switch" src="img/cross.svg" alt="close"></a></button>
+               <a href="" class="basket__link">MANGO  PEOPLE <br> T-SHIRT</a>
+                <h4 class="basket__text">Price: <span class="basket__text--bolb">$300</span> </h4>
+                <h4 class="basket__text">Color: Red</h4>
+                <h4 class="basket__text">Size: Xl</h4>
+                <p class="basket__text">Quantity:  <input class="basket__input" type="number"></p>   
+            </div>
+        </div>
+        <div class="basket__item">
+            <div class="basket__img"></div>
+            <div class="basket__describe">
+                <button class="basket-close">
+                    <a href="#"><img class="basket__switch" src="img/cross.svg" alt="close"></a></button>
+               <a href="" class="basket__link">MANGO  PEOPLE <br> T-SHIRT</a>
+                <h4 class="basket__text">Price: <span class="basket__text--bolb">$300</span> </h4>
+                <h4 class="basket__text">Color: Red</h4>
+                <h4 class="basket__text">Size: Xl</h4>
+                <p class="basket__text">Quantity:  <input class="basket__input" type="number"></p>   
+            </div>
+        </div>
+        <div class="basket__buttons">
+            <button type="submit" class="basket__action">CLEAR SHOPPING CART</button>
+            <button type="reset" class="basket__action">CONTINUE SHOPPING</button>
+        </div>         
+    </div> 
+
+    <div class="basket__list">
+        <form class="basket__form" action="#">
+            <label class="baskey__label" >SHIPPING ADRESS</label>
+            <input class="basket__info" type="text"  placeholder="Bangladesh">
+            <input class="basket__info" type="text"  placeholder="State"> 
+            <input class="basket__info" type="text"  placeholder="Postcode / Zip">
+            <div class="basket__button-wrapper">
+                <button class="basket__button" type="submit">GET A QUOTE</button></div> 
+        </form> 
+        <div class="basket__total">
+            <h4 class="basket__subtotal">SUB TOTAL<span class="basket__count">$900</span></h4>
+            <h3 class="basket__grantotal">GRAND TOTAL<span class="basket__grand-count">$900</span></h3>
+            <div class="basket__line"></div>
+            <button class="basket__total-button">PROCEED TO CHECKOUT</button>
+        </div>  
+        
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__wrapper  wrapper">
+            <div class="footer__subcribe">
+                <div class="footer__profile"></div>
+                <p class="subsribe__text"> <i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                    a pulvinar purus condimentum“</i></p>
+            </div>
+            <div class="footer__form">
+                <h3 class="footer__form_subscribe">SUBSCRIBE</h3>
+                <h4 class="footer__form_text">FOR OUR NEWLETTER AND PROMOTION</h4>
+                <form class="form__display" action="#">
+                    <input  class="form__input" name="s" placeholder="Enter Your Email" type="search">
+                    <button class="form__button" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+       
+    <div class="footer__bottom">
+    <div class="footer__wrap  wrapper">
+            <div class="footer__right">© 2021 Brand All Rights Reserved.</div>
+        <div class="footer__social">
+            <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/facebook.svg" alt=""></a> 
+             </div>
+             <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/inst.svg" alt=""></a> 
+             </div>
+             <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/pinterest.svg" alt=""></a> 
+             </div>
+             <div class="footer__social-div"> 
+                <a class="sotial_link" href="#"><img class="footer-social__img" src="img/twitter.svg" alt=""></a> 
+             </div>
+           
+                
+        </div>
+    </div>
+        
+    </div>
+</footer>
+
+    
+</body>
+</html>
